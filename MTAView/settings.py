@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.staticfiles",
     # allauth
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount'
+    "allauth",
+    "allauth.account",
+    "allauth.socialaccount",
 ]
 
 MIDDLEWARE = [
@@ -105,10 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTHENTICATION_BACKENDS = (
     # Needed to login by username in Django admin, regardless of 'allauth'
-    'django.contrib.auth.backends.ModelBackend',
-
+    "django.contrib.auth.backends.ModelBackend",
     # 'allauth' speccific authentication methods, such as login by email
-    'allauth.account.auth_backends.AuthenticationBackend'
+    "allauth.account.auth_backends.AuthenticationBackend",
 )
 
 
