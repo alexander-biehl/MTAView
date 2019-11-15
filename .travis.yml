@@ -1,0 +1,14 @@
+language: pyathon
+
+python:
+  - 3.7
+
+
+# install dependencies
+install:
+  - pip install -r requirements.txt
+
+before_script:
+  - python manage.py makemigrations --check --dry-run
+  - python manage.py migrate
+  - python manage.py collectstatic --noinput

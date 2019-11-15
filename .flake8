@@ -1,0 +1,7 @@
+[flake8]
+
+max-line-length=88
+exlcude = .git/
+    __pycache__,
+    venv/,
+    **/migrations
