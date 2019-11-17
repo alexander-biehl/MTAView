@@ -1,6 +1,6 @@
 # MTAView
 A Django site for viewing train status
-##Build Status
+## Build Status
 - Develop
 
 [![Build Status](https://travis-ci.com/alexander-biehl/MTAView.svg?branch=develop)](https://travis-ci.com/alexander-biehl/MTAView)
